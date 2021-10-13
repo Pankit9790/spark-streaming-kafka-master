@@ -1,0 +1,10 @@
+{
+  "input_path" : "/usr/local/airflow/etl/data/input",
+  "output_path" : "/usr/local/airflow/etl/data/output",
+  "test_output_path" : "/usr/local/airflow/etl/etl_process/tests/test_data/output",
+  "test_input_path" : "/usr/local/airflow/etl/etl_process/tests/test_data/input",
+  "ingredient" : "beef",
+  "case_sensitive" : "true",
+  "time_col" : ["cookTime", "prepTime"],
+  "app_name" : "data-engineering-task"
+}
